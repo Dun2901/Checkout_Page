@@ -41,7 +41,7 @@ function Item() {
 
             <div className={styles.contentQuantityAmount}>
               <HiMinus
-                className="item-center"
+                className="items-center"
                 // Add your className and onClick handler here
               />
               <input
@@ -51,7 +51,7 @@ function Item() {
                 value={3} // Set the value to "3" or the dynamic value you want to display
               />
               <HiPlus
-                className="item-center"
+                className="items-center"
                 // Add your className and onClick handler here
               />
             </div>
@@ -76,7 +76,7 @@ function Item() {
 
             <div className={styles.contentQuantityAmount}>
               <HiMinus
-                className="item-center w-5 h-5 flex justify-center"
+                className="items-center w-5 h-5 flex justify-center"
                 // Add your className and onClick handler here
               />
               <input
@@ -86,7 +86,7 @@ function Item() {
                 value={1} // Set the value to "3" or the dynamic value you want to display
               />
               <HiPlus
-                className="item-center w-5 h-5 flex justify-center"
+                className="items-center w-5 h-5 flex justify-center"
                 // Add your className and onClick handler here
               />
             </div>
