@@ -4,7 +4,8 @@ const TextInput = ({ type, placeholder, label, icon }) => {
   const style = {
     container: "mb-5 relative mr-3",
     label: "block mb-2",
-    input: "border border-gray-600 rounded-xl px-3 py-3 pl-12 w-full text-base",
+    input:
+      "border border-gray-600 rounded-xl px-3 py-3 pl-12 text-ellipsis w-full text-base",
     iconContainer: "absolute bottom-4 left-4 text-xl",
   };
   return (
