@@ -8,7 +8,7 @@ function Item() {
     container: "flex flex-col py-10 px-6",
     productCard: "",
     card: "relative flex items-center gap-5 mb-5",
-    img: "rounded-xl",
+    img: "rounded-xl ",
 
     detailProduct: "p-2",
     nameProduct: "font-Montserrat text-inherit",

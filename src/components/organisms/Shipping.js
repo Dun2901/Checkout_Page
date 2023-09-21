@@ -13,7 +13,7 @@ const Shipping = () => {
       <NameInput />
       <AddressInput />
       <CityInput />
-      <div className="flex justify-between ">
+      <div className="flex ">
         <CountryInput />
         <PostalInput />
       </div>

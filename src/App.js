@@ -7,14 +7,20 @@ import Footer from "./components/Footer";
 
 function App() {
   const styles = {
+    container: "flex flex-col md:flex-row-reverse",
     font: "text-base font-bold my-2",
-    containerLeft: "w-[60%] py-10 px-16",
-    containerRight: "w-[40%] py-10 px-16",
+    containerLeft: "px-16 py-10",
+    containerRight: "px-16 py-10",
   };
   return (
-    <div className="">
+    <div>
       <Header />
-      <div className="flex flex-grow ">
+
+      <div className={styles.container}>
+        {/* right side */}
+        <div className={styles.containerRight}>
+          <Card />
+        </div>
         {/* left side */}
         <div className={styles.containerLeft}>
           {/*checkout */}
@@ -22,18 +28,14 @@ function App() {
             <h2 className={styles.font}>Contact information</h2>
             <Information />
           </div>
-          <div className="">
+          <div>
             <h2 className={styles.font}>Shipping address</h2>
             <Shipping />
           </div>
         </div>
-        {/* right side */}
-        <div className={styles.containerRight}>
-          <Card />
-        </div>
       </div>
 
-      <Footer className="justify-center px-" />
+      <Footer />
     </div>
   );
 }
